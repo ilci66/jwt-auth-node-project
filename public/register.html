@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="./js/index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="/">HOME</a>
+        <ul>
+            <li><a href="register">Register</a></li>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/secret">Secret Page</a></li>
+        </ul>
+    </nav>
+    <div class="register-wrapper">
+        <h1>Create an account</h1>
+        <p class="register-error"></p>
+        <form class="registery-form">
+            <p>Email:</p>
+            <input
+            placeholder="example@gmail.com"
+            name="email" 
+            id="femail"
+            type="email"
+            >
+        
+            <p>Password:</p>
+
+            <input
+            id="fpassword"
+            name="password" 
+            type="password"
+            >
+            <p>Rewrite Password:</p>
+            <input
+            id="fpassword2"
+            name="password2" 
+            type="password"
+            >
+            <input class="registry-submit-btn" type="submit" value="SUBMIT">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(94, 139, 162);
+    color: rgb(255, 255, 255);
+}
+p {
+    line-height: 1.7;
+    padding-top: 20px;
+}
+.home-wrapper {
+    width: 80%;
+    padding: 50px;
+    background: rgba(0,0,0,0.7);
+    margin: 10px;
+    border-radius: 20px;
+}
+nav {
+    background: olivedrab;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+}
+ul {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+li {
+    margin-left: 10px;
+}
+a {
+    color: azure;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.login-wrapper, .register-wrapper {
+    margin-top: 20px;
+    background: rgba(0,0,0,0.7);
+    padding: 20px;
+    border-radius: 20px;
+}
+.login-form, .registery-form {
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+}
+.login-form > input, .registery-form > input {
+    padding: 20px;
+    font-size: 1.6rem;
+    border-radius: 20px;
+}
+.login-submit-btn, .registry-submit-btn {
+    margin-top: 10px;
+    border:none;
+    background: rgba(234, 97, 170, 0.7);
+    transition: 0.4s;
+}
+.login-submit-btn:hover, .registry-submit-btn:hover {
+    cursor: pointer;
+    background: rgba(234, 97, 170, 1);
+}
+.secret-wrapper {
+    width: 80%;
+    margin-top: 20px;
+    background: rgba(0,0,0,0.7);
+    padding: 50px;
+    border-radius: 20px;
+}
